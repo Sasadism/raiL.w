@@ -4,10 +4,10 @@ addEventListener("fetch", event => {
 
 async function handleRequest(request) {
   const url = new URL(request.url)
-  const target = "https://188.114.97.3:443"  //
+  const target = "https://178.105.179.72:443"  //
   const newUrl = target + url.pathname + url.search
   const modifiedHeaders = new Headers(request.headers)
-  modifiedHeaders.set("x-host", "avaco-railway.x4o4.workers.dev:443") // همون X-Host از کانفیگ شما
+  modifiedHeaders.set("x-host", "x-host":"netlify.parsashonam.sbs:444") //
   const modifiedRequest = new Request(newUrl, {
     method: request.method,
     headers: modifiedHeaders,
