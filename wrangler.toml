@@ -1,6 +1,6 @@
-name = "avaco-relay"
+name = "rail9"
 main = "index.js"
-compatibility_date = "2026-06-07"
+compatibility_date = "2026-06-06"
 
 [env.production]
 workers_dev = true
